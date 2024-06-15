@@ -437,12 +437,12 @@ graph TD;
     Bathroom_Accessories-->Bed_&_Bath;
     Toy_Organizers-->Baby_And_Kids;
 ```
-| input (CategoryName) |           output (Discount)           |
+| input (ProductName) |           output (Discount)           |
 | :---:   |:---------------------------------------:|
-| Comforter Sets |90.0 OR 85.0|
-| Bedding |32.5 OR 37.5|
-| Bathroom Accessories |125.0|
-|Baby And Kid|257.0|
+| Cozy Comforter Sets |90.0 OR 85.0|
+| All-in-one Bedding Set |32.5 OR 37.5|
+| Infinite Soap Dispenser |125.0|
+| Rainbow Toy Box |257.0|
 
 ### Requirements/Acceptance Criteria
 - Function takes a String representing the Product Name
@@ -582,10 +582,10 @@ public class CategoryAndCouponsF2 {
 
     CategoryAndCouponsF2 cc = new CategoryAndCouponsF2(coupons, categories, products);
 
-    System.out.println("Comforter Sets => " + cc.displayDiscountPrice("Cozy Comforter Sets"));
-    System.out.println("Bedding => " + cc.displayDiscountPrice("All-in-one Bedding Set"));
-    System.out.println("Bathroom Accessories => " + cc.displayDiscountPrice("Infinite Soap Dispenser"));
-    System.out.println("Baby And Kids => " + cc.displayDiscountPrice("Rainbow Toy Box"));
+    System.out.println("Cozy Comforter Sets => " + cc.displayDiscountPrice("Cozy Comforter Sets"));
+    System.out.println("All-in-one Bedding Set => " + cc.displayDiscountPrice("All-in-one Bedding Set"));
+    System.out.println("Infinite Soap Dispenser => " + cc.displayDiscountPrice("Infinite Soap Dispenser"));
+    System.out.println("Rainbow Toy Box => " + cc.displayDiscountPrice("Rainbow Toy Box"));
   }
 }
 ```

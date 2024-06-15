@@ -10,7 +10,7 @@ Given an array **taskMemory** of **n** positive integers representing the amount
 
 ### Approach
 Here's how we can implement this in Java:<br>
-1. **Group Tasks by Type**: As before, group tasks by their type.
+1. **Group Tasks by Type**: Group tasks by their type.
 2. **Process Each Group**: For each type, attempt to process pairs of tasks in parallel. If a pair exceeds **maxMemory**, process them individually.
 3. **Calculate Total Time**: Track the total time required, ensuring tasks are processed optimally given the parallel processing constraints.
 

@@ -1,8 +1,8 @@
 # Interview Experience: Wayfair - Software Engineer II (June-2024)
 
-# [Round 2] Wayfair OnSite Virtual Round 
+## [Round 2] Wayfair OnSite Virtual Round 
 
-## Problem Statement
+### Problem Statement
 Given the following set of data sets, create a function that will find the coupon to display for a given category.
 ```java
     // {{CategoryName, CouponName}}
@@ -39,7 +39,7 @@ graph TD;
 | Soap Dispensers | Low price for Bed & Bath |
 | Toy Organizers |           null           |
 
-## Requirements/Acceptance Criteria
+### Requirements/Acceptance Criteria
   - Create a function that when passed a Category Name (as a String) will return Coupon Name (as a String)
   - Category structure is hierarchical. Categories without coupons inherit their parent's coupon.
   - No coupon should be returned if there are no coupons in the Category's hierarchy
@@ -50,7 +50,7 @@ graph TD;
     - Bathroom Accessories should receive the coupon for Bed & Bath because there are no coupons for Bathroom Accessories
   - Assumption: Product can only be associated with one category.
 
-## Solution
+### Solution
 
 ```java
 import java.util.*;
@@ -101,7 +101,7 @@ private final Map<String, String> parentCategoryMap;
     }
 }
 ```
-## Problem Statement (Follow up 1)
+### Problem Statement (Follow up 1)
 The system has added a new piece of data to the coupon - "Date Modified". Use this when resolving any ties (when 1 Category
 has 2+ Coupons).
 ```java
@@ -142,17 +142,17 @@ graph TD;
 | Bathroom Accessories |           Bed & Bath extravaganza           |
 | Comforter Sets |   Comforter Sale \| Cozy Comforter Coupon   |
 
-## Requirements/Acceptance Criteria
+### Requirements/Acceptance Criteria
 - Create a function that when passed a Category Name (as a String) will return one Coupon Name (as a String)
 - If a Category has more than 1 coupon the Coupon with the most recent DateModified should be returned
 - If a Coupon's DateModified is in the future, it should not be returned
 - Category structure is hierarchical. Categories without coupons inherit their parent's coupon.
 
-## Additional Guidance
+### Additional Guidance
 - Use of the internet for syntax and basic implementation questions is allowed.
 - Think out loud! Describe your approach and discuss changes as new information surfaces
 
-## Solution
+### Solution
 
 ```java
 import lombok.Getter;
@@ -241,7 +241,7 @@ public class CategoryAndCouponsF1 {
     }
 }
 ```
-## Problem Statement (Follow up 2)
+### Problem Statement (Follow up 2)
 Now that we know what coupon to show to the user, let's make sure the user can apply the coupon by changing the selling price
 of a Product.<br>
 **_Format (Category Name, Coupon Name, Date Modified, Discount)_**
@@ -290,11 +290,11 @@ graph TD;
 | Bathroom Accessories |125.0|
 |Baby And Kid|257.0|
 
-## Requirements/Acceptance Criteria
+### Requirements/Acceptance Criteria
 - Function takes a String representing the Product Name
 - Function Returns the discounted price (Product price minus the coupon discount) as a String
 
-## Solution
+### Solution
 
 ```java
 import lombok.Getter;

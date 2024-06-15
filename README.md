@@ -1,4 +1,4 @@
-# Interview Experience: Wayfair - Software Engineer II (June-2024)
+# Interview Experience ![Wayfair logo](https://upload.wikimedia.org/wikipedia/commons/0/0a/Wayfair_logo_with_tagline.png) Wayfair - Software Engineer II (June-2024)
 
 ## [Round 1] Wayfair hackerrank coding Round
 ### Problem Statement 1 - Task Scheduler

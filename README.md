@@ -2,7 +2,7 @@
 
 | Company | Role | Links |
 |-|-|-|
-**Allen Digital** | Senior Software Engineer (SDE 3) - Backend | [![README](https://img.shields.io/badge/README--green.svg)](https://github.com/erruchirgupta/Limited-Time-Deals-AllenDigitalMachineCoding/blob/main/README.md) [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/erruchirgupta/Limited-Time-Deals-AllenDigitalMachineCoding)
+**Allen Digital** | Senior Software Engineer (SDE 3) - Backend | [![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)](https://github.com/erruchirgupta/Limited-Time-Deals-AllenDigitalMachineCoding)
 **Wayfair** | Software Engineer II | [![README](https://img.shields.io/badge/README--green.svg)](Wayfair.md)
 **Park+** | Engineering Manager | [![README](https://img.shields.io/badge/README--green.svg)](ParkPlus.md)
 **KickDrum** | Technical Lead | [![README](https://img.shields.io/badge/README--green.svg)](KickDrum.md)

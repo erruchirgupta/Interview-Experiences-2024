@@ -222,10 +222,10 @@ graph TD;
 
 | Key |   Value    |   Description    |
 | :-:   | :-:   | :-:   |
-| Restaurant (Sorted Set name) | longitude latitude resturantId (longitude latitude member) | RestaurantInfo ([for GeoSpacial searching](https://redis.io/docs/latest/develop/data-types/geospatial))|
-| cartId | customerId | CustomerCartId mapping for storing with TTL expiry (here cartId are temporary Id generated & sent from Frontend)|
-| cartId | cartItems | CustomerCartItems mapping for storing cartItems with TTL expiry (here cartItems are sent from Frontend)|
-| productId | unavailable_quantity_on_lock | Resturant Inventory Lock for managing live inventory |
+| Restaurant (Sorted Set name) | longitude latitude resturantId (longitude latitude member) | To get restaurants near customer address lat/lng ([for GeoSpacial wise redis inserts & searching](https://redis.io/docs/latest/develop/data-types/geospatial))|
+| "ActiveCartByCustomerId"+customerId | cartId | CustomerCartId mapping for storing with TTL expiry (here cartId are temporary Id generated & sent from Frontend)|
+| "ActiveCartItemsByCartId"+cartId | cartItems | CustomerCartItems mapping for storing cartItems with TTL expiry (here cartItems are sent from Frontend)|
+| "ProductInventoryOnLockByProductId"+productId | unavailable_quantity_on_lock | Resturant Inventory Lock for managing live inventory |
 
 ```java
 /*

@@ -79,8 +79,9 @@ class Solution {
 ```
 
 <details>
-<summary>Explanation</summary>
+<summary>More info</summary>
  
+ #### Explanation
 1. Initialization:
    - `int n = gas.length;`: Determines the number of gas stations.
    - `int start = 0;`: Initially assumes the starting point is at the first gas station.

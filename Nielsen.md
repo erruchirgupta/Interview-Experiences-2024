@@ -1,4 +1,4 @@
-# ![nielsen logo](https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/SUC/nielsen-rebrande.jpg) <br>Nielsen | Software Developer- Backend (June-2024)
+# ![nielsen logo](https://cached.imagescaler.hbpl.co.uk/resize/scaleWidth/952/cached.offlinehbpl.hbpl.co.uk/news/SUC/nielsen-rebrande.jpg) <br>Nielsen | Software Developer - Backend (June-2024)
 
 ## [Round 1] BarRaiser | On-Site Virtual Coding Round (60 Mins)
 ### [Coding] Problem Statement 1 - Gas Station

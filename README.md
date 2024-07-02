@@ -9,6 +9,7 @@
 **Zepto** | Software Engineer III (Backend) | [![README](https://img.shields.io/badge/README--green.svg)](Zepto.md)
 **Addepar** | Sr. Software Engineer-Alternatives Data Management | [![README](https://img.shields.io/badge/README--green.svg)](Addepar.md)
 **BitGo**|Staff Backend Engineer| [![README](https://img.shields.io/badge/README--green.svg)](BitGo.md)
-**Nielsen**|Software Developer- Backend| [![README](https://img.shields.io/badge/README--green.svg)](Nielsen.md)
+**Nielsen**|Software Developer - Backend| [![README](https://img.shields.io/badge/README--green.svg)](Nielsen.md)
+**Komprise**|Senior Backend Engineer| [![README](https://img.shields.io/badge/README--green.svg)](Komprise.md)
 
 **Liked this repo? Give a star :star: :arrow_up:**
